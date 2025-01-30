@@ -1,6 +1,5 @@
 package ma.ensat.validators;
 
-
 import org.w3c.dom.Document;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -10,7 +9,7 @@ import java.io.FileInputStream;
 
 public class DTDValidator  {
     public static void main(String[] args) {
-        String xmlFilePath = "src/XML/Etudiants(1).xml";
+        String xmlFilePath = "src/XML/Etudiants.xml";
         String dtdFilePath = "src/Validation/Etudiants.dtd";
         if (validateXMLAgainstDTD(xmlFilePath, dtdFilePath)) {
             System.out.println("Le fichier XML est valide par rapport à la DTD.");

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><Etudiants>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Etudiants SYSTEM "src/Validation/Etudiants.dtd">
+<Etudiants>
 <Etudiant>
 <CodeApogee>21010395</CodeApogee>
 <Nom>ABBAD</Nom>
