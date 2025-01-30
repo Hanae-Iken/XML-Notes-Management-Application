@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<Modules>
+	<Module CodeModule="GINF31">
+		<NomModule>Programmation orientée objet et XML</NomModule>
+		<ElementModule> Programmation orientée objet : JAVA</ElementModule>
+		<ElementModule>XML et Applications</ElementModule>
+		<ElementModule></ElementModule>
+		<Dept_Attachement></Dept_Attachement>
+	</Module>
+	<Module CodeModule="GINF32">
+		<NomModule>Qualité et approche processus</NomModule>
+		<ElementModule>Maitrise et optimisation des processus   </ElementModule>
+		<ElementModule>Cycle de Vie Logiciel et Méthodes agiles</ElementModule>
+		<ElementModule></ElementModule>
+		<Dept_Attachement></Dept_Attachement>
+	</Module>
+	<Module CodeModule="GINF33">
+		<NomModule>Modélisation orientée objet et IHM</NomModule>
+		<ElementModule>Modélisation orientée objet UML </ElementModule>
+		<ElementModule>Interaction Homme Machine</ElementModule>
+		<ElementModule></ElementModule>
+		<Dept_Attachement></Dept_Attachement>
+	</Module>
+	<Module CodeModule="GINF34">
+		<NomModule>Bases de données avancées 1</NomModule>
+		<ElementModule>Optimisation et Qualité de base de données</ElementModule>
+		<ElementModule>Administration et Sécurité des bases de données</ElementModule>
+		<ElementModule></ElementModule>
+		<Dept_Attachement></Dept_Attachement>
+	</Module>
+	<Module CodeModule="GINF35">
+		<NomModule>Administration et programmation système</NomModule>
+		<ElementModule>Administration systèmes</ElementModule>
+		<ElementModule>Programmation systèmes    </ElementModule>
+		<ElementModule></ElementModule>
+		<Dept_Attachement></Dept_Attachement>
+	</Module>
+	<Module CodeModule="GINF36">
+		<NomModule>Langues et communication 2</NomModule>
+		<ElementModule>Espagnol 2, Allemand</ElementModule>
+		<ElementModule>Techniques de communication</ElementModule>
+		<ElementModule></ElementModule>
+		<Dept_Attachement></Dept_Attachement>
+	</Module>
+	<Module CodeModule="GINF41">
+		<NomModule>Technologies distribuées</NomModule>
+		<ElementModule>Introduction à J2EE</ElementModule>
+		<ElementModule>Programmation en c#</ElementModule>
+		<ElementModule></ElementModule>
+		<Dept_Attachement></Dept_Attachement>
+	</Module>
+	<Module CodeModule="GINF42">
+		<NomModule>Base de données avancées 2 et Cloud   </NomModule>
+		<ElementModule>Gestion des données complexes </ElementModule>
+		<ElementModule>Gestion des données distribuées</ElementModule>
+		<ElementModule></ElementModule>
+		<Dept_Attachement></Dept_Attachement>
+	</Module>
+	<Module CodeModule="GINF43">
+		<NomModule>Traitement d’image</NomModule>
+		<ElementModule>Traitement d’image</ElementModule>
+		<ElementModule>Vision numérique</ElementModule>
+		<ElementModule></ElementModule>
+		<Dept_Attachement></Dept_Attachement>
+	</Module>
+	<Module CodeModule="GINF44">
+		<NomModule>Programmation déclarative et TAV</NomModule>
+		<ElementModule>Programmation Déclarative</ElementModule>
+		<ElementModule>Technique Algorithmique Avancée</ElementModule>
+		<ElementModule></ElementModule>
+		<Dept_Attachement></Dept_Attachement>
+	</Module>
+	<Module CodeModule="GINF45">
+		<NomModule>Sécurité et cryptographique</NomModule>
+		<ElementModule>Sécurité des systèmes</ElementModule>
+		<ElementModule>Cryptographique </ElementModule>
+		<ElementModule></ElementModule>
+		<Dept_Attachement></Dept_Attachement>
+	</Module>
+	<Module CodeModule="GINF46">
+		<NomModule>Management de l’entreprise 2</NomModule>
+		<ElementModule>Managements de Projet </ElementModule>
+		<ElementModule>Projets Collectifs et Stages</ElementModule>
+		<ElementModule></ElementModule>
+		<Dept_Attachement></Dept_Attachement>
+	</Module>
+</Modules>
