@@ -26,9 +26,9 @@
                         <fo:table-column column-width="1.5cm"/>
                         <fo:table-column column-width="2cm"/>
                         <fo:table-header>
-                            <fo:table-row background-color="#82AAE3">
+                            <fo:table-row background-color="#FF6347"> <!-- Couleur tomate -->
                                 <fo:table-cell border="1px solid black">
-                                    <fo:block font-size="x-small" font-weight="bold" text-align="center">CodeApogee</fo:block>
+                                    <fo:block font-size="x-small" font-weight="bold" text-align="center">CIN</fo:block>
                                 </fo:table-cell>
                                 <xsl:for-each select="/Notes/Etudiant[1]/Module">
                                     <fo:table-cell border="1px solid black" padding="8pt">
@@ -47,7 +47,7 @@
                                 <fo:table-row>
                                     <fo:table-cell border="1px solid black">
                                         <fo:block font-size="x-small" font-weight="bold" text-align="center">
-                                            <xsl:value-of select="CodeApogee"/>
+                                            <xsl:value-of select="CIN"/>
                                         </fo:block>
                                     </fo:table-cell>
                                     <xsl:for-each select="Module">
@@ -57,7 +57,7 @@
                                             </fo:block>
                                         </fo:table-cell>
                                     </xsl:for-each>
-                                    <fo:table-cell border="1px solid black" background-color="#FAEBD7">
+                                    <fo:table-cell border="1px solid black" background-color="#98FB98"> <!-- Couleur vert clair -->
                                         <fo:block font-size="x-small" font-weight="bold" text-align="center">
                                             <xsl:variable select="sum(Module/Moyenne) div count(Module)" name="moyenneEtudiant"/>
                                             <xsl:value-of select="format-number($moyenneEtudiant,'#.##')"/>

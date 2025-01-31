@@ -10,11 +10,11 @@ import java.io.*;
 public class EmploiDuTemps {
     public static void main(String[] args) throws FileNotFoundException, TransformerConfigurationException {
         try {
-            File xmlfile1 = new File("src/XML/Modules_Ginf2.xml");
-            File xsltfile = new File("src/XSL_FO/EmploiDuTemps.xsl");
+            File xmlfile1 = new File("src/XML/emplois_du_temps.xml");
+            File xsltfile = new File("src/XSL_FO/emplois_du_temps.xsl");
             File pdfDir = new File("src/Output/PDFS");
             pdfDir.mkdirs();
-            File pdfFile = new File(pdfDir,"EmlpoiDuTemps.pdf");
+            File pdfFile = new File(pdfDir,"EmploiDuTemps.pdf");
             System.out.println(pdfFile.getAbsolutePath());
             final FopFactory fopFactory = FopFactory.newInstance(new File(".").toURI());
             FOUserAgent foUserAgent = fopFactory.newFOUserAgent();

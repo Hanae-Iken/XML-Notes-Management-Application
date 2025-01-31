@@ -9,11 +9,11 @@ import java.io.*;
 public class Attestation {
     public static void main(String[] args) throws FileNotFoundException, TransformerConfigurationException {
         try {
-            File xmlfile = new File("src/XML/Notes_GINF31_avantRatt.xml");
-            File xsltfile = new File("src/XSL_FO/NotesAvR.xsl");
+            File xmlfile = new File("src/XML/Etudiants.xml");
+            File xsltfile = new File("src/XSL_FO/attestation_scolarite.xsl");
             File pdfDir = new File("src/Output/PDFS");
             pdfDir.mkdirs();
-            File pdfFile = new File(pdfDir,"NoteAvR.pdf");
+            File pdfFile = new File(pdfDir,"Attestation.pdf");
             System.out.println(pdfFile.getAbsolutePath());
             final FopFactory fopFactory = FopFactory.newInstance(new File(".").toURI());
             FOUserAgent foUserAgent = fopFactory.newFOUserAgent();

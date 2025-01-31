@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:fo="http://www.w3.org/1999/XSL/Format" exclude-result-prefixes="fo"
@@ -28,24 +27,22 @@
                                 <fo:block>ROYAUME DU MAROC </fo:block>
                                 <fo:block>Université Abdelmalek Essaâdi</fo:block>
                                 <fo:block>École Nationale des Sciences Appliquées de Tanger</fo:block>
-                                <fo:block margin-top="0.5cm " text-decoration="underline">Service Des Affaires Estudiantines</fo:block>
-
+                                <fo:block margin-top="0.5cm " text-decoration="underline">Service des Affaires Estudiantines</fo:block>
                             </fo:block>
                         </fo:inline-container>
 
                         <fo:inline-container inline-progression-dimension="30.33%"  text-align="center" vertical-align="middle">
-                            <fo:block break-before="page" text-align="center" >
-                                <fo:external-graphic src="../XMLTEST/Ensat.jpg" content-height="2cm" />
+                            <fo:block text-align="center" >
+                                <fo:external-graphic src="file:///C:\Users\Lenovo PC\Documents\Ginf2\s1\XML\ProjetXML-El-Otmani-Iken\Projet_XML\XML-Notes-Management-Application\src\Images\Ensat.png" content-height="2cm" />
                             </fo:block>
                         </fo:inline-container>
 
                         <fo:inline-container inline-progression-dimension="33.33%" vertical-align="top">
                             <fo:block text-align="right">
-                                <fo:block>المملكة المغربية </fo:block>
-                                <fo:block>جامعة عبد المالك السعدي</fo:block>
-                                <fo:block>المدرسة الوطنية للعلوم التطبيقية بطنجة</fo:block>
-                                <fo:block margin-top="1cm " text-decoration="underline" >مصلحة الشؤون الطلابية</fo:block>
-
+                                <fo:block>ROYAUME DU MAROC</fo:block>
+                                <fo:block>Université Abdelmalek Essaâdi</fo:block>
+                                <fo:block>École Nationale des Sciences Appliquées de Tanger</fo:block>
+                                <fo:block margin-top="1cm " text-decoration="underline" >Service des Affaires Estudiantines</fo:block>
                             </fo:block>
                         </fo:inline-container>
                     </fo:block>
@@ -73,30 +70,28 @@
 
                             <fo:inline-container inline-progression-dimension="5%"  text-align="center" vertical-align="middle">
                                 <fo:block break-before="page" text-align="center" >
-
                                 </fo:block>
                             </fo:inline-container>
 
                             <fo:inline-container inline-progression-dimension="45%" vertical-align="top">
                                 <fo:block text-align="right">
                                     <fo:block>
-                                        <fo:inline text-decoration="underline" text-align="right"> العنوان</fo:inline>
+                                        <fo:inline text-decoration="underline" text-align="right">Adresse</fo:inline>
                                         <fo:inline>&#160;</fo:inline>
                                         <fo:inline>:</fo:inline>
-                                        <fo:inline text-align="left">المدرسة الوطنية للعلوم التطبيقية بطنجة &#160;</fo:inline>
+                                        <fo:inline text-align="left">École Nationale des Sciences Appliquées de Tanger &#160;</fo:inline>
                                     </fo:block>
-                                    <fo:block margin-right="1.4cm">ص.ب 1818 طنجة المغرب</fo:block>
+                                    <fo:block margin-right="1.4cm">B.P. 1818 Tanger, Maroc</fo:block>
                                     <fo:block margin-right="1.4cm">
-                                        <fo:inline >ه</fo:inline>
+                                        <fo:inline >Tél</fo:inline>
                                         <fo:inline >&#160; :</fo:inline>
                                         <fo:inline >0539393744</fo:inline>
-                                        <fo:inline >&#160;ف&#160;</fo:inline>
+                                        <fo:inline >&#160;Fax&#160;</fo:inline>
                                         <fo:inline >&#160; :</fo:inline>
                                         <fo:inline >0539393743</fo:inline>
                                     </fo:block>
                                 </fo:block>
                             </fo:inline-container>
-
                         </fo:block>
                     </fo:block>
 
@@ -134,7 +129,7 @@
                             Numéro de la carte d'identité nationale :  <xsl:value-of select="/Etudiants/Etudiant[1]/CIN"/>
                         </fo:block>
                         <fo:block margin-top="0.75cm">
-                            Né le :  <xsl:value-of select="concat( format-date(Etudiants/Etudiant[1]/DateNaissance, '[D01] [MN,*-3] [Y]'), ' à ', Etudiants/Etudiant[1]/LieuNaissance)"/>
+                            Né le :  <xsl:value-of select="concat(Etudiants/Etudiant[1]/DateNaissance, ' à ', Etudiants/Etudiant[1]/LieuNaissance)"/>
                         </fo:block>
                         <fo:block margin-top="0.75cm">
                             Poursuit ses études à l'École Nationale des Sciences Appliquées de Tanger pour l'année universitaire 2023/2024.
@@ -150,13 +145,14 @@
                         </fo:block>
                     </fo:block>
                     <fo:block text-align="right" margin-top="0.75cm">
-                        <fo:block text-align="right" >Fait à TANGER, le <xsl:value-of select="format-date(current-date(), '[D01] [MN,*-3] [Y]')"/></fo:block>
+                        <!-- Date statique -->
+                        <fo:block text-align="right" >Fait à TANGER, le 31 janvier 2025</fo:block>
                         <fo:block margin-top="0.75cm" margin-right="3cm">
                             Le Directeur :
                         </fo:block>
                         <fo:block>
                             <fo:block  margin-right="1.5cm" >
-                                <fo:external-graphic src="./images/cachet.jpg" content-height="3cm" />
+                                <fo:external-graphic src="file:///C:\Users\Lenovo PC\Documents\Ginf2\s1\XML\ProjetXML-El-Otmani-Iken\Projet_XML\XML-Notes-Management-Application\src\Images\cachet.jpg" content-height="3cm" />
                             </fo:block>
                         </fo:block>
                     </fo:block>

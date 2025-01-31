@@ -1,16 +1,30 @@
 package ma.ensat.PDF_GENERATORS;
 
-import org.apache.fop.apps.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
 
-import javax.xml.transform.*;
+import javax.xml.transform.Result;
+import javax.xml.transform.Source;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.sax.SAXResult;
 import javax.xml.transform.stream.StreamSource;
-import java.io.*;
+
+import org.apache.fop.apps.FOPException;
+import org.apache.fop.apps.FOUserAgent;
+import org.apache.fop.apps.Fop;
+import org.apache.fop.apps.FopFactory;
+import org.apache.fop.apps.MimeConstants;
 public class CarteRecto {
     public static void main(String[] args) throws FileNotFoundException, TransformerConfigurationException {
         try {
             File xmlfile = new File("src/XML/Etudiants.xml");
-            File xsltfile = new File("src/XSL_FO/Recto.xsl");
+            File xsltfile = new File("src/XSL_FO/Carte etudiant.xsl");
             File pdfDir = new File("src/Output/PDFS");
             pdfDir.mkdirs();
             File pdfFile = new File(pdfDir,"Recto2.pdf");

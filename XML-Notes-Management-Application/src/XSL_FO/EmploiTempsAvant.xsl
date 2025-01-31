@@ -5,6 +5,7 @@
 
                 version="2.0">
 
+
     <xsl:template match="e:emploi">
         <fo:root>
             <fo:layout-master-set>
@@ -27,7 +28,7 @@
                                     <xsl:if test="e:TopBar/e:logoUae">
                                         <fo:block margin-top="0.1cm" margin-left="0.2cm">
                                             <fo:external-graphic
-                                                    src="file:///C:\Users\Lenovo PC\Documents\Ginf2\s1\XML\ProjetXML-El-Otmani-Iken\Projet_XML\XML-Notes-Management-Application\src\Images\logo.png"
+                                                    src="logoUae.png"
                                                     content-height="scale-to-fit"
                                                     content-width="scale-to-fit"
                                                     width="1.7cm"
@@ -52,7 +53,7 @@
                                     <xsl:if test="e:TopBar/e:logoEnsa">
                                         <fo:block  margin-top="0.2cm" margin-left="3.3cm" >
                                             <fo:external-graphic
-                                                    src="file:///C:\Users\Lenovo PC\Documents\Ginf2\s1\XML\ProjetXML-El-Otmani-Iken\Projet_XML\XML-Notes-Management-Application\src\Images\Ensat.png"
+                                                    src="ensa.png"
                                                     content-height="scale-to-fit"
                                                     content-width="scale-to-fit"
                                                     width="2.9cm"
@@ -128,7 +129,10 @@
 
                     </fo:table>
 
+                    <!--==================================-->
+
                     <!-- EmploiBody Days of Week -->
+
 
                     <fo:table margin-left="1.7cm" margin-top="-3cm" >
                         <fo:table-column column-width="1.5cm"/>
@@ -308,7 +312,7 @@
                                                   font-weight="bold" color="#000000" >
                                             <fo:instream-foreign-object margin-left="-4cm">
                                                 <svg width="175" height="130" viewBox="0 0 98 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#42E427" stroke="black"/>
+                                                    <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#6dcf8f" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
 
@@ -360,7 +364,7 @@
                                                   font-weight="bold" color="#000000" >
                                             <fo:instream-foreign-object margin-left="-4cm">
                                                 <svg width="175" height="130" viewBox="0 0 98 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#42E427" stroke="black"/>
+                                                    <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#6dcf8f" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
 
@@ -482,7 +486,7 @@
                                                   font-weight="bold" color="#000000" >
                                             <fo:instream-foreign-object margin-left="-4cm">
                                                 <svg width="175" height="130" viewBox="0 0 98 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#42E427" stroke="black"/>
+                                                    <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#6dcf8f" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
 
@@ -558,7 +562,7 @@
 
                                                 <fo:table-body>
                                                     <fo:table-cell >
-                                                        <fo:block font-size="15px" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
+                                                        <fo:block font-size="15px"  text-align="center" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
                                                             <xsl:value-of select="e:matieres/e:matiere6/e:nom"/>
                                                             <!--Matière-->
                                                         </fo:block>
@@ -708,7 +712,7 @@
                                                   font-weight="bold" color="#000000" >
                                             <fo:instream-foreign-object margin-left="-4cm">
                                                 <svg width="175" height="130" viewBox="0 0 98 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#42E427" stroke="black"/>
+                                                    <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#6dcf8f" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
 
@@ -751,6 +755,59 @@
                                     </fo:block>
 
                                     <!--======================-->
+
+
+                                    <!--3eme MAtiere-->
+                                    <fo:block>
+                                        <fo:block width="1.5cm"
+                                                  height="1cm" margin-top="1.5cm"
+                                                  margin-left="-1.6cm" font-size="20px"
+                                                  font-weight="bold" color="#000000" >
+                                            <fo:instream-foreign-object margin-left="-4cm">
+                                                <svg width="175" height="130" viewBox="0 0 98 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#f073bc" stroke="black"/>
+                                                    <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
+                                                </svg>
+
+                                            </fo:instream-foreign-object>
+                                        </fo:block>
+                                        <fo:block width="0.5cm"
+                                                  height="1cm" margin-top="-2.5cm"
+                                                  margin-left="-0.5cm" font-size="20px"
+                                                  font-weight="bold" color="#000000" >
+                                            <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
+
+                                                <fo:table-header  >
+                                                    <fo:table-cell >
+                                                        <fo:block font-size="15px">
+                                                            <xsl:value-of select="e:matieres/e:matiere10/e:type"/>
+                                                            <xsl:value-of select="e:matieres/e:matiere10/e:Durre1"/>
+                                                            <!--Cour - HDep - Hfin-->
+                                                        </fo:block>
+                                                    </fo:table-cell>
+                                                </fo:table-header>
+
+                                                <fo:table-body>
+                                                    <fo:table-cell >
+                                                        <fo:block font-size="16px" text-align="center" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
+                                                            <xsl:value-of select="e:matieres/e:matiere10/e:nom"/>
+                                                            <!--Matière-->
+                                                        </fo:block>
+                                                        <fo:block font-size="18px" text-align="center" margin-left="-0.5cm">
+                                                            <xsl:value-of select="e:matieres/e:matiere10/e:nomProf"/>
+                                                            <!--PROF-->
+                                                        </fo:block>
+                                                        <fo:block font-size="18px" text-align="center" margin-left="-0.3cm">
+                                                            <xsl:value-of select="e:matieres/e:matiere10/e:salle"/>
+                                                            <!--Salle-->
+                                                        </fo:block>
+                                                    </fo:table-cell>
+                                                </fo:table-body>
+                                            </fo:table>
+                                        </fo:block>
+                                    </fo:block>
+
+                                    <!--======================-->
                                 </fo:table-cell>
                                 <!-- ======================-->
 
@@ -781,7 +838,7 @@
                                                   font-weight="bold" color="#000000" >
                                             <fo:instream-foreign-object margin-left="-4cm">
                                                 <svg width="175" height="130" viewBox="0 0 98 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <rect x="-0.09772" y="0.985062" width="95.4644" height="56.8319" rx="11.5" fill="#F9FCA9" stroke="black"/>
+                                                    <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#f073bc" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
 
@@ -793,58 +850,6 @@
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm"
                                                       border-collapse="separate"  >
-
-                                                <fo:table-header  >
-                                                    <fo:table-cell >
-                                                        <fo:block font-size="15px">
-                                                            <xsl:value-of select="e:matieres/e:matiere10/e:type"/>
-                                                            <xsl:value-of select="e:matieres/e:matiere10/e:Durre1"/>
-                                                            <!--Cour - HDep - Hfin-->
-                                                        </fo:block>
-                                                    </fo:table-cell>
-                                                </fo:table-header>
-
-                                                <fo:table-body>
-                                                    <fo:table-cell >
-                                                        <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.1cm">
-                                                            <xsl:value-of select="e:matieres/e:matiere10/e:nom"/>
-                                                            <!--Matière-->
-                                                        </fo:block>
-                                                        <fo:block font-size="18px" text-align="center" margin-left="-0.5cm">
-                                                            <xsl:value-of select="e:matieres/e:matiere10/e:nomProf"/>
-                                                            <!--PROF-->
-                                                        </fo:block>
-                                                        <fo:block font-size="18px" text-align="center" margin-left="-0.3cm">
-                                                            <xsl:value-of select="e:matieres/e:matiere10/e:salle"/>
-                                                            <!--Salle-->
-                                                        </fo:block>
-                                                    </fo:table-cell>
-                                                </fo:table-body>
-                                            </fo:table>
-                                        </fo:block>
-                                    </fo:block>
-
-                                    <!--======================-->
-
-                                    <!--2eme MAtiere-->
-                                    <fo:block>
-                                        <fo:block width="1.5cm"
-                                                  height="1cm" margin-top="0.08cm"
-                                                  margin-left="-1.6cm" font-size="20px"
-                                                  font-weight="bold" color="#000000" >
-                                            <fo:instream-foreign-object margin-left="-4cm">
-                                                <svg width="175" height="130" viewBox="0 0 98 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <rect x="-0.09772" y="0.985062" width="95.4644" height="56.8319" rx="11.5" fill="#F9FCA9" stroke="black"/>
-                                                    <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
-                                                </svg>
-
-                                            </fo:instream-foreign-object>
-                                        </fo:block>
-                                        <fo:block width="0.5cm"
-                                                  height="1cm" margin-top="-2.5cm"
-                                                  margin-left="-0.5cm" font-size="20px"
-                                                  font-weight="bold" color="#000000" >
-                                            <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
 
                                                 <fo:table-header  >
                                                     <fo:table-cell >
@@ -878,15 +883,15 @@
 
                                     <!--======================-->
 
-                                    <!--3eme MAtiere-->
+                                    <!--2eme MAtiere-->
                                     <fo:block>
                                         <fo:block width="1.5cm"
-                                                  height="1cm" margin-top="1.5cm"
+                                                  height="1cm" margin-top="0.08cm"
                                                   margin-left="-1.6cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:instream-foreign-object margin-left="-4cm">
                                                 <svg width="175" height="130" viewBox="0 0 98 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#f073bc" stroke="black"/>
+                                                    <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#86b8e3" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
 
@@ -910,7 +915,7 @@
 
                                                 <fo:table-body>
                                                     <fo:table-cell >
-                                                        <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
+                                                        <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.1cm">
                                                             <xsl:value-of select="e:matieres/e:matiere12/e:nom"/>
                                                             <!--Matière-->
                                                         </fo:block>
@@ -930,10 +935,10 @@
 
                                     <!--======================-->
 
-                                    <!--4eme MAtiere-->
+                                    <!--3eme MAtiere-->
                                     <fo:block>
                                         <fo:block width="1.5cm"
-                                                  height="1cm" margin-top="0.12cm"
+                                                  height="1cm" margin-top="1.5cm"
                                                   margin-left="-1.6cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:instream-foreign-object margin-left="-4cm">
@@ -962,7 +967,7 @@
 
                                                 <fo:table-body>
                                                     <fo:table-cell >
-                                                        <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
+                                                        <fo:block font-size="16px" text-align="center" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
                                                             <xsl:value-of select="e:matieres/e:matiere13/e:nom"/>
                                                             <!--Matière-->
                                                         </fo:block>
@@ -1036,7 +1041,7 @@
 
                                                 <fo:table-body>
                                                     <fo:table-cell >
-                                                        <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.1cm">
+                                                        <fo:block font-size="16px" text-align="center" margin-top="0.1cm" width="3.6cm" margin-left="-0.1cm">
                                                             <xsl:value-of select="e:matieres/e:matiere14/e:nom"/>
                                                             <!--Matière-->
                                                         </fo:block>
@@ -1064,7 +1069,7 @@
                                                   font-weight="bold" color="#000000" >
                                             <fo:instream-foreign-object margin-left="-4cm">
                                                 <svg width="175" height="130" viewBox="0 0 98 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <rect x="-0.09772" y="0.985062" width="95.4644" height="56.8319" rx="11.5" fill="#F9FCA9" stroke="black"/>
+                                                    <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#6dcf8f" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
 
@@ -1088,7 +1093,7 @@
 
                                                 <fo:table-body>
                                                     <fo:table-cell >
-                                                        <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.1cm">
+                                                        <fo:block font-size="16px" text-align="center" margin-top="0.1cm" width="3.6cm" margin-left="-0.1cm">
                                                             <xsl:value-of select="e:matieres/e:matiere15/e:nom"/>
                                                             <!--Matière-->
                                                         </fo:block>
@@ -1140,7 +1145,7 @@
 
                                                 <fo:table-body>
                                                     <fo:table-cell >
-                                                        <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
+                                                        <fo:block font-size="16px" text-align="center" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
                                                             <xsl:value-of select="e:matieres/e:matiere16/e:nom"/>
                                                             <!--Matière-->
                                                         </fo:block>
@@ -1192,7 +1197,7 @@
 
                                                 <fo:table-body>
                                                     <fo:table-cell >
-                                                        <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
+                                                        <fo:block font-size="16px" text-align="center" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
                                                             <xsl:value-of select="e:matieres/e:matiere17/e:nom"/>
                                                             <!--Matière-->
                                                         </fo:block>
@@ -1286,7 +1291,7 @@
                                     <fo:block margin-top="1cm" margin-left="4cm">
                                         <fo:instream-foreign-object>
                                             <svg width="85" height="37" viewBox="0 0 80 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <rect x="0.5" y="0.5" width="79" height="28" fill="#42E427" stroke="black"/>
+                                                <rect x="0.5" y="0.5" width="79" height="28" fill="#6dcf8f" stroke="black"/>
                                             </svg>
                                         </fo:instream-foreign-object>
                                     </fo:block>
@@ -1300,7 +1305,7 @@
                                     <fo:block margin-top="1cm" margin-left="4cm">
                                         <fo:instream-foreign-object>
                                             <svg width="85" height="37" viewBox="0 0 80 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <rect x="0.5" y="0.5" width="79" height="28" fill="#F9FCA9" stroke="black"/>
+                                                <rect x="0.5" y="0.5" width="79" height="28" fill="#86b8e3" stroke="black"/>
                                             </svg>
                                         </fo:instream-foreign-object>
                                     </fo:block>

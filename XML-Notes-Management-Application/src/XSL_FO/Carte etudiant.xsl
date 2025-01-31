@@ -46,7 +46,7 @@
 
                 <fo:static-content flow-name="xsl-region-after">
                     <fo:block text-align="right">
-                        Première inscription :2020/2021
+                        Première inscription :2021/2022
                     </fo:block>
                 </fo:static-content>
 
@@ -69,9 +69,9 @@
                     </fo:block>
                 </fo:static-content>
                 <fo:flow flow-name="xsl-region-body">
-                    <fo:block font-size="small" font-weight="bold"  margin-left="80px"><xsl:value-of select="/Etudiants/Etudiant[22]/nom"/></fo:block>
-                    <fo:block font-size="small" font-weight="bold"  margin-left="80px"><xsl:value-of select="/Etudiants/Etudiant[22]/prénom"/></fo:block>
-                    <fo:block font-size="small" font-weight="bold"  margin-left="80px"><xsl:value-of select="/Etudiants/Etudiant[22]/CodeApogee"/></fo:block>
+                    <fo:block font-size="small" font-weight="bold"  margin-left="80px"><xsl:value-of select="/Etudiants/Etudiant[39]/Nom"/></fo:block>
+                    <fo:block font-size="small" font-weight="bold"  margin-left="80px"><xsl:value-of select="/Etudiants/Etudiant[39]/Prenom"/></fo:block>
+                    <fo:block font-size="small" font-weight="bold"  margin-left="80px"><xsl:value-of select="/Etudiants/Etudiant[39]/CodeApogee"/></fo:block>
                 </fo:flow>
             </fo:page-sequence>
         </fo:root>

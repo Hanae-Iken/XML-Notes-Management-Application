@@ -12,7 +12,7 @@ public class CarteVerso {
     public static void main(String[] args) throws FileNotFoundException, TransformerConfigurationException {
         try {
             File xmlfile = new File("src/XML/Etudiants.xml");
-            File xsltfile = new File("src/XSL_FO/Verso.xsl");
+            File xsltfile = new File("src/XSL_FO/Carte etudiant.xsl");
             File pdfDir = new File("src/Output/PDFS");
             pdfDir.mkdirs();
             File pdfFile = new File(pdfDir,"Verso.pdf");
