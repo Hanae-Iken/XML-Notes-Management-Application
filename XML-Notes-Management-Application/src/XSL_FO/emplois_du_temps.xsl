@@ -100,8 +100,6 @@
                                     </fo:block>
                                 </fo:table-cell>
 
-
-
                                 <fo:table-cell width="1.5cm" >
                                     <fo:block font-family="Roboto" font-size="24px" color="#000000" text-align="center" margin-top="-0.8cm" margin-left="10.5cm"
                                     >
@@ -128,6 +126,7 @@
 
                     </fo:table>
 
+                    <!--==================================-->
                     <!-- EmploiBody Days of Week -->
 
                     <fo:table margin-left="1.7cm" margin-top="-3cm" >
@@ -140,16 +139,12 @@
                         <fo:table-column column-width="3.8cm"/>
                         <fo:table-header  >
                             <fo:table-row >
-
                                 <fo:table-cell width="1.5cm" border="solid">
                                     <fo:block width="1.5cm" height="1cm"  >
-
                                     </fo:block>
                                 </fo:table-cell>
-
                                 <xsl:for-each select="//e:day">
                                     <fo:table-cell width="3.8cm" height="1cm" border="solid">
-
                                         <fo:block width="1.5cm"
                                                   height="1cm" margin-top="0.2cm"
                                                   margin-left="-0.5cm" font-size="20px"
@@ -164,11 +159,10 @@
 
                         <!--=========================-->
                         <!-- body Table with time-->
-                        <fo:table-body>
 
+                        <fo:table-body>
                             <fo:table-row  >
                                 <fo:table-cell width="1.5cm" height="12cm" border="solid" >
-
                                     <xsl:for-each select="//e:time">
                                         <fo:block width="1.5cm"
                                                   height="1cm" font-size="20px"
@@ -176,25 +170,13 @@
                                                   margin-left="-1.5cm" margin-top="0.05cm" >
                                             <xsl:value-of select="@t"/>
                                         </fo:block>
-
                                     </xsl:for-each>
-
-
-
-
-
-
-
-
-
                                 </fo:table-cell>
 
                                 <!--<xsl:for-each select="//e:day">-->
-
                                 <!--                          Lundi                                     -->
 
                                 <fo:table-cell width="3.8cm" height="12cm" border="solid">
-
 
                                     <!--FirstMAtiere-->
                                     <fo:block>
@@ -207,7 +189,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#f073bc" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -215,7 +196,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px" >
@@ -225,7 +205,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.1cm">
@@ -247,8 +226,8 @@
                                     </fo:block>
 
                                     <!--======================-->
-
                                     <!--2eme MAtiere-->
+
                                     <fo:block>
                                         <fo:block width="1.5cm"
                                                   height="1cm" margin-top="0.08cm"
@@ -259,7 +238,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#f073bc" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -267,7 +245,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -277,7 +254,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.1cm">
@@ -299,8 +275,8 @@
                                     </fo:block>
 
                                     <!--======================-->
-
                                     <!--3eme MAtiere-->
+
                                     <fo:block>
                                         <fo:block width="1.5cm"
                                                   height="1cm" margin-top="1.5cm"
@@ -311,7 +287,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#42E427" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -319,7 +294,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -329,7 +303,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
@@ -351,8 +324,8 @@
                                     </fo:block>
 
                                     <!--======================-->
-
                                     <!--4eme MAtiere-->
+
                                     <fo:block>
                                         <fo:block width="1.5cm"
                                                   height="1cm" margin-top="0.12cm"
@@ -363,7 +336,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#42E427" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -371,7 +343,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -381,7 +352,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
@@ -403,24 +373,11 @@
                                     </fo:block>
 
                                     <!--======================-->
-
-
                                 </fo:table-cell>
                                 <!-- ======================-->
-
-
-
-
-
-
-
-
-
-
                                 <!--                          Mardi                                     -->
 
                                 <fo:table-cell width="3.8cm" height="12cm" border="solid">
-
 
                                     <!--FirstMAtiere-->
                                     <fo:block>
@@ -441,7 +398,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -451,7 +407,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.1cm">
@@ -473,8 +428,8 @@
                                     </fo:block>
 
                                     <!--======================-->
-
                                     <!--2eme MAtiere-->
+
                                     <fo:block>
                                         <fo:block width="1.5cm"
                                                   height="1cm" margin-top="0.08cm"
@@ -485,7 +440,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#42E427" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -493,7 +447,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -503,7 +456,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.1cm">
@@ -525,8 +477,8 @@
                                     </fo:block>
 
                                     <!--======================-->
-
                                     <!--3eme MAtiere-->
+
                                     <fo:block>
                                         <fo:block width="1.5cm"
                                                   height="1cm" margin-top="1.5cm"
@@ -537,7 +489,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#f073bc" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -545,7 +496,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -555,7 +505,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
@@ -577,8 +526,8 @@
                                     </fo:block>
 
                                     <!--======================-->
-
                                     <!--4eme MAtiere-->
+
                                     <fo:block>
                                         <fo:block width="1.5cm"
                                                   height="1cm" margin-top="0.12cm"
@@ -589,7 +538,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#f073bc" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -597,7 +545,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -607,7 +554,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="16px" text-align="center" margin-top="0.1cm" width="3.6cm" margin-left="-0.1cm">
@@ -629,24 +575,11 @@
                                     </fo:block>
 
                                     <!--======================-->
-
-
                                 </fo:table-cell>
                                 <!-- ======================-->
-
-
-
-
-
-
-
-
-
-
                                 <!--                          Mercredi                                     -->
 
                                 <fo:table-cell width="3.8cm" height="12cm" border="solid">
-
 
                                     <!--FirstMAtiere-->
                                     <fo:block>
@@ -659,7 +592,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#f073bc" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -667,7 +599,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -677,7 +608,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px" margin-top="0.1cm" width="3.6cm" margin-left="-0.23cm">
@@ -699,8 +629,8 @@
                                     </fo:block>
 
                                     <!--======================-->
-
                                     <!--2eme MAtiere-->
+
                                     <fo:block>
                                         <fo:block width="1.5cm"
                                                   height="1cm" margin-top="0.08cm"
@@ -711,7 +641,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#42E427" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -719,7 +648,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -729,7 +657,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px" margin-top="0.1cm" width="3.6cm" margin-left="-0.23cm">
@@ -754,24 +681,8 @@
                                 </fo:table-cell>
                                 <!-- ======================-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                 <!--                          Jeudi                                     -->
-
                                 <fo:table-cell width="3.8cm" height="12cm" border="solid">
-
 
                                     <!--FirstMAtiere-->
                                     <fo:block>
@@ -784,7 +695,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="56.8319" rx="11.5" fill="#F9FCA9" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -793,7 +703,6 @@
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm"
                                                       border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -803,7 +712,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.1cm">
@@ -837,7 +745,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="56.8319" rx="11.5" fill="#F9FCA9" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -845,7 +752,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -855,7 +761,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.1cm">
@@ -889,7 +794,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#f073bc" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -897,7 +801,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -907,7 +810,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
@@ -941,7 +843,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#f073bc" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -949,7 +850,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -959,7 +859,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
@@ -981,28 +880,11 @@
                                     </fo:block>
 
                                     <!--======================-->
-
-
                                 </fo:table-cell>
                                 <!-- ======================-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                 <!--                          Vendredi                                    -->
 
                                 <fo:table-cell width="3.8cm" height="12cm" border="solid">
-
 
                                     <!--FirstMAtiere-->
                                     <fo:block>
@@ -1015,7 +897,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#f073bc" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -1023,7 +904,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -1033,7 +913,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.1cm">
@@ -1067,7 +946,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="56.8319" rx="11.5" fill="#F9FCA9" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -1075,7 +953,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -1085,7 +962,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.1cm">
@@ -1119,7 +995,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#f073bc" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -1127,7 +1002,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -1137,7 +1011,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
@@ -1171,7 +1044,6 @@
                                                     <rect x="-0.09772" y="0.985062" width="95.4644" height="52.8319" rx="11.5" fill="#f073bc" stroke="black"/>
                                                     <line x1="1.52698" y1="11.1227" x2="95.1328" y2="11.1227" stroke="black"/>
                                                 </svg>
-
                                             </fo:instream-foreign-object>
                                         </fo:block>
                                         <fo:block width="0.5cm"
@@ -1179,7 +1051,6 @@
                                                   margin-left="-0.5cm" font-size="20px"
                                                   font-weight="bold" color="#000000" >
                                             <fo:table margin-left="-0.98cm" width="3.6cm" border-collapse="separate"  >
-
                                                 <fo:table-header  >
                                                     <fo:table-cell >
                                                         <fo:block font-size="15px">
@@ -1189,7 +1060,6 @@
                                                         </fo:block>
                                                     </fo:table-cell>
                                                 </fo:table-header>
-
                                                 <fo:table-body>
                                                     <fo:table-cell >
                                                         <fo:block font-size="16px" margin-top="0.1cm" width="3.6cm" margin-left="-0.2cm">
@@ -1212,38 +1082,22 @@
 
                                     <!--======================-->
 
-
                                 </fo:table-cell>
                                 <!-- ======================-->
-
-
-
-
-
-
-
-
-
                                 <!--                          Samedi                                    -->
 
                                 <fo:table-cell width="3.8cm" height="12cm" border="solid">
-
                                     <fo:block width="1.5cm"
                                               height="1cm" margin-top="0.2cm"
                                               margin-left="-1.6cm" font-size="20px"
                                               font-weight="bold" color="#000000" >
                                     </fo:block>
-
-
                                 </fo:table-cell>
                                 <!-- ======================-->
-
                                 <!-- </xsl:for-each>-->
                             </fo:table-row>
 
                         </fo:table-body>
-
-
                     </fo:table>
 
                     <!--==================================-->
@@ -1256,14 +1110,12 @@
                         <fo:table-column column-width="4cm"/>
                         <fo:table-body>
                             <fo:table-row>
-
                                 <fo:table-cell width="8cm" >
                                     <fo:block font-family="Roboto" font-size="24px" color="#000000" margin-top="1cm"  margin-left="3cm"
                                     >
                                         <xsl:value-of select="e:footer/e:titlefooter"/>
                                     </fo:block>
                                 </fo:table-cell>
-
                                 <fo:table-cell width="4cm"   margin-top="1cm">
                                     <fo:block margin-top="1cm" margin-left="3.7cm">
                                         <fo:instream-foreign-object>
@@ -1277,11 +1129,6 @@
                                         <xsl:value-of select="e:footer/e:f1"/>
                                     </fo:block>
                                 </fo:table-cell>
-
-
-
-
-
                                 <fo:table-cell width="4cm" >
                                     <fo:block margin-top="1cm" margin-left="4cm">
                                         <fo:instream-foreign-object>
@@ -1295,7 +1142,6 @@
                                         <xsl:value-of select="e:footer/e:f2"/>
                                     </fo:block>
                                 </fo:table-cell>
-
                                 <fo:table-cell width="4cm" >
                                     <fo:block margin-top="1cm" margin-left="4cm">
                                         <fo:instream-foreign-object>
@@ -1309,20 +1155,13 @@
                                         <xsl:value-of select="e:footer/e:f3"/>
                                     </fo:block>
                                 </fo:table-cell>
-
-
-
                             </fo:table-row>
                         </fo:table-body>
-
                     </fo:table>
 
                     <!--==================================-->
-
-
                 </fo:flow>
             </fo:page-sequence>
         </fo:root>
     </xsl:template>
-
 </xsl:stylesheet>
