@@ -14,7 +14,7 @@ public class ReleveClasse {
             File xsltfile = new File("src/XSL_FO/Notes.xsl");
             File pdfDir = new File("src/Output/PDFS");
             pdfDir.mkdirs();
-            File pdfFile = new File(pdfDir,"ReleveClasse.pdf");
+            File pdfFile = new File(pdfDir,"Releve_De_Classe.pdf");
             System.out.println(pdfFile.getAbsolutePath());
 
             // configure fopFactory as desired

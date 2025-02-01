@@ -7,17 +7,16 @@ import javax.xml.transform.sax.SAXResult;
 import javax.xml.transform.stream.StreamSource;
 import java.io.*;
 
-
-public class CarteVerso {
+public class CarteEtudiant {
     public static void main(String[] args) throws FileNotFoundException, TransformerConfigurationException {
         try {
             File xmlfile = new File("src/XML/Etudiants.xml");
-            File xsltfile = new File("src/XSL_FO/Carte etudiant.xsl");
+            File xsltfile = new File("src/XSL_FO/carte_etudiant.xsl");
             File pdfDir = new File("src/Output/PDFS");
             pdfDir.mkdirs();
-            File pdfFile = new File(pdfDir,"Verso.pdf");
+            File pdfFile = new File(pdfDir,"Carte1.pdf");
             System.out.println(pdfFile.getAbsolutePath());
-            final FopFactory fopFactory = FopFactory.newInstance(new File("").toURI());
+            final FopFactory fopFactory = FopFactory.newInstance(new File(".").toURI());
             FOUserAgent foUserAgent = fopFactory.newFOUserAgent();
             OutputStream out = new FileOutputStream(pdfFile);
             out = new java.io.BufferedOutputStream(out);

@@ -1,11 +1,3 @@
-(:declare variable $file1 := doc("file:///C:\Users\Lenovo PC\Documents\Ginf2\s1\XML\ProjetXML-El-Otmani-Iken\Projet_XML\XML-Notes-Management-Application\src\XML\Notes.xml");:)
-(:declare variable $file2 := doc("file:///C:\Users\Lenovo PC\Documents\Ginf2\s1\XML\ProjetXML-El-Otmani-Iken\Projet_XML\XML-Notes-Management-Application\src\XML\Etudiants.xml");:)
-(:declare variable $file1 := doc('Notes.xml');:)
-(:declare variable $file2 := doc('Etudiants.xml');:)
-
-(:declare variable $file1 := doc('C:/Users/Lenovo%20PC/Documents/Ginf2/s1/XML/ProjetXML-El-Otmani-Iken/Projet_XML/XML-Notes-Management-Application/src/XML/Notes.xml');:)
-(:declare variable $file2 := doc('C:/Users/Lenovo%20PC/Documents/Ginf2/s1/XML/ProjetXML-El-Otmani-Iken/Projet_XML/XML-Notes-Management-Application/src/XML/Etudiants.xml');:)
-
 declare variable $file1 := doc('C:/Users/Lenovo PC/Documents/Ginf2/s1/XML/ProjetXML-El-Otmani-Iken/Projet_XML/XML-Notes-Management-Application/src/XML/Notes.xml');
 declare variable $file2 := doc('C:/Users/Lenovo PC/Documents/Ginf2/s1/XML/ProjetXML-El-Otmani-Iken/Projet_XML/XML-Notes-Management-Application/src/XML/Etudiants.xml');
 

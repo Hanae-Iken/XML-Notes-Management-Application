@@ -14,7 +14,7 @@ public class ReleveEtudiant {
             File xsltfile = new File("src/XSL_FO/Releve_de_notes.xsl");
             File pdfDir = new File("src/Output/PDFS");
             pdfDir.mkdirs();
-            File pdfFile = new File(pdfDir,"ReleveEtudiant.pdf");
+            File pdfFile = new File(pdfDir,"Releve_Etudiant.pdf");
             System.out.println(pdfFile.getAbsolutePath());
 
             final FopFactory fopFactory = FopFactory.newInstance(new File(".").toURI());

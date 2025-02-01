@@ -57,7 +57,7 @@
                     <fo:block>&#160;</fo:block>
                     <fo:block>&#160;</fo:block>
                     <fo:block>
-                        <fo:external-graphic  src="src/Images/ysn.jpeg"  height="0.85in"  content-width="0.85in" />
+                        <fo:external-graphic  src="src/Images/img.jpeg"  height="0.85in"  content-width="0.85in" />
                     </fo:block>
 
                 </fo:static-content>
@@ -69,9 +69,9 @@
                     </fo:block>
                 </fo:static-content>
                 <fo:flow flow-name="xsl-region-body">
-                    <fo:block font-size="small" font-weight="bold"  margin-left="80px"><xsl:value-of select="/Etudiants/Etudiant[39]/Nom"/></fo:block>
-                    <fo:block font-size="small" font-weight="bold"  margin-left="80px"><xsl:value-of select="/Etudiants/Etudiant[39]/Prenom"/></fo:block>
-                    <fo:block font-size="small" font-weight="bold"  margin-left="80px"><xsl:value-of select="/Etudiants/Etudiant[39]/CodeApogee"/></fo:block>
+                    <fo:block font-size="small" font-weight="bold"  margin-left="80px"><xsl:value-of select="/Etudiants/Etudiant[45]/Nom"/></fo:block>
+                    <fo:block font-size="small" font-weight="bold"  margin-left="80px"><xsl:value-of select="/Etudiants/Etudiant[45]/Prenom"/></fo:block>
+                    <fo:block font-size="small" font-weight="bold"  margin-left="80px"><xsl:value-of select="/Etudiants/Etudiant[45]/CodeApogee"/></fo:block>
                 </fo:flow>
             </fo:page-sequence>
         </fo:root>

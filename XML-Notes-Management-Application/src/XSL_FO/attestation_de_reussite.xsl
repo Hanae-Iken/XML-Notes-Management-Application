@@ -41,7 +41,6 @@
                                 <fo:block>ROYAUME DU MAROC</fo:block>
                                 <fo:block>Université Abdelmalek Essaâdi</fo:block>
                                 <fo:block>École Nationale des Sciences Appliquées de Tanger</fo:block>
-                                <fo:block margin-top="1cm " text-decoration="underline" >Service des Affaires Estudiantines</fo:block>
                             </fo:block>
                         </fo:inline-container>
                     </fo:block>

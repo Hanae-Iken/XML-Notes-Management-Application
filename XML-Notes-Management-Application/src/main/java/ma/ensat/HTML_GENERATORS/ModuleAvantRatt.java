@@ -1,4 +1,4 @@
-package ma.ensat;
+package ma.ensat.HTML_GENERATORS;
 
 import javax.xml.transform.*;
 import javax.xml.transform.stream.StreamResult;
@@ -7,16 +7,16 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 
-public class XmlToHtml {
+public class ModuleAvantRatt {
     public static void main(String[] args) {
         try {
             TransformerFactory tFactory = TransformerFactory.newInstance();
-            StreamSource xslDoc = new StreamSource("src/XSLT/AffichageGlobale.xsl");
+            StreamSource xslDoc = new StreamSource("src/XSLT/NotesAvantRatt.xsl");
             StreamSource xmlDoc = new StreamSource("src/XML/Notes.xml");
-            String outputFileName = "src/Output/HTML/affichage_globale.html";
+            String outputFileName = "src/Output/HTML/Module_GINF31_Avant.html";
             OutputStream htmlFile = new FileOutputStream(outputFileName);
             Transformer transform = tFactory.newTransformer(xslDoc);
-            System.out.println("HTML file generated successfully");
+            System.out.println("HTML file for Module avant ratt generated successfully");
             transform.transform(xmlDoc, new StreamResult(htmlFile));
         } catch (FileNotFoundException e) {
             System.err.println("File not found: " + e.getMessage());

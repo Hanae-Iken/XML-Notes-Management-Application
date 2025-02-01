@@ -125,7 +125,7 @@
                                         </fo:table-cell>
                                         <fo:table-cell padding-top="0.1cm" padding-bottom="0.1cm">
                                             <fo:block>
-                                                Session 1 2023/2024
+                                                Session 1 2024/2025
                                             </fo:block>
                                         </fo:table-cell >
                                         <fo:table-cell padding-top="0.1cm" padding-bottom="0.1cm">

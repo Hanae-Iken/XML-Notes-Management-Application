@@ -1,4 +1,4 @@
-package ma.ensat.XML;
+package ma.ensat.XML_GENERATORS;
 
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -8,15 +8,14 @@ import java.io.FileWriter;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class Convertor_Modules {
-
+public class ModulesConvertor {
     static void converter() {
         try {
-            FileInputStream file = new FileInputStream(new File("src/Excel_Csv/Modules_GINF2.xlsx"));
+            FileInputStream file = new FileInputStream(new File("src/Excel_Csv/Modules.xlsx"));
             XSSFWorkbook workbook = new XSSFWorkbook(file);
             Sheet sheet = workbook.getSheetAt(0);  // Assurez-vous de choisir la bonne feuille
 
-            File myWriter = new File("src/XML/Modules_Ginf2.xml");
+            File myWriter = new File("src/XML/Modules.xml");
             myWriter.createNewFile();
             FileWriter output = new FileWriter(myWriter);
             output.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?> \n");

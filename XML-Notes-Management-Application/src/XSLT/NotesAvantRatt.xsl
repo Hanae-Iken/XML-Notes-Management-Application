@@ -32,7 +32,7 @@
                             <td style="border:solid #000000 1px; padding: 5px;">
                                 <xsl:value-of select="Module/Matières/Matière[@Designation='XML et Applications']"/>
                             </td>
-                            <xsl:variable name="moyenne" select="number(Module/Matières/Matière[@Designation='Moyenne'])"/>
+                            <xsl:variable name="moyenne" select="number(Module/Moyenne)"/>
                             <td>
                                 <xsl:attribute name="style">
                                     <xsl:text>border:solid #000000 1px; padding: 5px; background-color:</xsl:text>

@@ -1,10 +1,11 @@
-package ma.ensat.XML;
+package ma.ensat.XML_GENERATORS;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Notes_Converter {
+public class NotesConvertor {
     public static void converter() {
         try {
             File myObj = new File("src/Excel_Csv/Notes.csv");

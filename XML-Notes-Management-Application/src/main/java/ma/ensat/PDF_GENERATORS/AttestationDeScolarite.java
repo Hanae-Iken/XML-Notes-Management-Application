@@ -1,29 +1,28 @@
 package ma.ensat.PDF_GENERATORS;
 
 import org.apache.fop.apps.*;
+
 import javax.xml.transform.*;
 import javax.xml.transform.sax.SAXResult;
 import javax.xml.transform.stream.StreamSource;
 import java.io.*;
 
-public class AttestationReussite {
-    public static void main(String[] args) {
+public class AttestationDeScolarite {
+    public static void main(String[] args) throws FileNotFoundException, TransformerConfigurationException {
         try {
-            File xmlfile = new File("src/XML/resultReussit.xml");
-            File xsltfile = new File("src/XSL_FO/attestation_de_reussite.xsl");
+            File xmlfile = new File("src/XML/Etudiants.xml");
+            File xsltfile = new File("src/XSL_FO/attestation_scolarite.xsl");
             File pdfDir = new File("src/Output/PDFS");
             pdfDir.mkdirs();
-            File pdfFile = new File(pdfDir, "Attestation_De_Reussite.pdf");
+            File pdfFile = new File(pdfDir,"Attestation_De_Scolarite.pdf");
             System.out.println(pdfFile.getAbsolutePath());
-
-            // Initialisation de FOP
             final FopFactory fopFactory = FopFactory.newInstance(new File(".").toURI());
             FOUserAgent foUserAgent = fopFactory.newFOUserAgent();
             OutputStream out = new FileOutputStream(pdfFile);
             out = new java.io.BufferedOutputStream(out);
-
             try {
-                Fop fop = fopFactory.newFop(MimeConstants.MIME_PDF, foUserAgent, out);
+                Fop fop;
+                fop = fopFactory.newFop(MimeConstants.MIME_PDF,foUserAgent,out);
                 TransformerFactory factory = TransformerFactory.newInstance();
                 Transformer transformer = factory.newTransformer(new StreamSource(xsltfile));
                 Source src = new StreamSource(xmlfile);
@@ -34,7 +33,7 @@ public class AttestationReussite {
             } finally {
                 out.close();
             }
-        } catch (IOException exp) {
+        }catch(IOException exp){
             exp.printStackTrace();
         }
     }

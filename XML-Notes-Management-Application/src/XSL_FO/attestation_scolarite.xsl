@@ -27,7 +27,6 @@
                                 <fo:block>ROYAUME DU MAROC </fo:block>
                                 <fo:block>Université Abdelmalek Essaâdi</fo:block>
                                 <fo:block>École Nationale des Sciences Appliquées de Tanger</fo:block>
-                                <fo:block margin-top="0.5cm " text-decoration="underline">Service des Affaires Estudiantines</fo:block>
                             </fo:block>
                         </fo:inline-container>
 
@@ -42,7 +41,6 @@
                                 <fo:block>ROYAUME DU MAROC</fo:block>
                                 <fo:block>Université Abdelmalek Essaâdi</fo:block>
                                 <fo:block>École Nationale des Sciences Appliquées de Tanger</fo:block>
-                                <fo:block margin-top="1cm " text-decoration="underline" >Service des Affaires Estudiantines</fo:block>
                             </fo:block>
                         </fo:inline-container>
                     </fo:block>
@@ -132,7 +130,7 @@
                             Né le :  <xsl:value-of select="concat(Etudiants/Etudiant[1]/DateNaissance, ' à ', Etudiants/Etudiant[1]/LieuNaissance)"/>
                         </fo:block>
                         <fo:block margin-top="0.75cm">
-                            Poursuit ses études à l'École Nationale des Sciences Appliquées de Tanger pour l'année universitaire 2023/2024.
+                            Poursuit ses études à l'École Nationale des Sciences Appliquées de Tanger pour l'année universitaire 2024/2025.
                         </fo:block>
                         <fo:block margin-top="0.75cm">
                             <fo:inline text-decoration="underline">Diplôme</fo:inline> :  Génie Informatique

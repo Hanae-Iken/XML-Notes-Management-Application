@@ -1,22 +1,27 @@
-package ma.ensat.XML;
+package ma.ensat.XML_GENERATORS;
 
-import org.apache.poi.ss.usermodel.*;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.stream.StreamResult;
-import javax.xml.transform.dom.DOMSource;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.text.DecimalFormat;
 
-public class Etudiants_Converter {
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+
+public class EtudiantsConvertor {
     public static void main(String[] args) {
-        String excelFilePath = "src/Excel_Csv/Etudiants1.xlsx";
+        String excelFilePath = "src/Excel_Csv/Etudiants.xlsx";
         String xmlFilePath = "src/XML/Etudiants.xml";
 
         try {
@@ -85,7 +90,7 @@ public class Etudiants_Converter {
 
         workbook.close();
     }
-
+    
     private static String getCellValueAsString(Cell cell) {
         if (cell == null) {
             return "";
@@ -101,4 +106,3 @@ public class Etudiants_Converter {
         }
     }
 }
-
