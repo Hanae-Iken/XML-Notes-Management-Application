@@ -28,7 +28,7 @@ public class Notes_Converter {
                         if (Valeurs.length >= 3) {
                             output.write("\t<Etudiant>\n");
 
-                            output.write("\t\t<CIN>" + Valeurs[0] + "</CIN>\n");
+                            output.write("\t\t<CodeApogee>" + Valeurs[0] + "</CodeApogee>\n");
                             output.write("\t\t<NOM>" + Valeurs[1] + "</NOM>\n");
                             output.write("\t\t<PRENOM>" + Valeurs[2] + "</PRENOM>\n");
 

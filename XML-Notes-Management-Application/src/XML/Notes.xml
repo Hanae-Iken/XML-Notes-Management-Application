@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 <Notes>
 	<Etudiant>
-		<CIN>S132196187</CIN>
+		<CodeApogee>21010395</CodeApogee>
 		<NOM>ABBAD</NOM>
 		<PRENOM>ABDELOUAHED</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -91,7 +91,7 @@
 		<MoyenneGénérale>10.958</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>J136291354</CIN>
+		<CodeApogee>21010278</CodeApogee>
 		<NOM>ABDELOUAHAB</NOM>
 		<PRENOM>SOUFIANE</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -181,7 +181,7 @@
 		<MoyenneGénérale>10.917</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P130521166</CIN>
+		<CodeApogee>21011326</CodeApogee>
 		<NOM>ABOU-EL KASEM</NOM>
 		<PRENOM>KENZA</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -271,7 +271,7 @@
 		<MoyenneGénérale>12.653</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P139480621</CIN>
+		<CodeApogee>21010358</CodeApogee>
 		<NOM>AHMYTTOU</NOM>
 		<PRENOM>AYA</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -361,7 +361,7 @@
 		<MoyenneGénérale>12.778</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P132423674</CIN>
+		<CodeApogee>21010266</CodeApogee>
 		<NOM>AIDOUN</NOM>
 		<PRENOM>IBTISSAM</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -451,7 +451,7 @@
 		<MoyenneGénérale>11.764</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P134447086</CIN>
+		<CodeApogee>20001758</CodeApogee>
 		<NOM>AL AZAMI</NOM>
 		<PRENOM>TAREK</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -541,7 +541,7 @@
 		<MoyenneGénérale>13.153</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>G134740519</CIN>
+		<CodeApogee>21010287</CodeApogee>
 		<NOM>ALLAM</NOM>
 		<PRENOM>ELARBI</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -631,7 +631,7 @@
 		<MoyenneGénérale>10.792</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P132358902</CIN>
+		<CodeApogee>21010482</CodeApogee>
 		<NOM>ARIB</NOM>
 		<PRENOM>AYMANE</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -721,7 +721,7 @@
 		<MoyenneGénérale>11.806</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P146017327</CIN>
+		<CodeApogee>21009157</CodeApogee>
 		<NOM>AZZMAN</NOM>
 		<PRENOM>NORELIMANE</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -811,7 +811,7 @@
 		<MoyenneGénérale>10.972</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P100058493</CIN>
+		<CodeApogee>21010356</CodeApogee>
 		<NOM>AZZOUZ</NOM>
 		<PRENOM>CHAIMAE</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -901,7 +901,7 @@
 		<MoyenneGénérale>10.417</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P146072013</CIN>
+		<CodeApogee>21010411</CodeApogee>
 		<NOM>BEN IMRAN</NOM>
 		<PRENOM>AHLAM</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -991,7 +991,7 @@
 		<MoyenneGénérale>9.528</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>R130551842</CIN>
+		<CodeApogee>21010476</CodeApogee>
 		<NOM>BENCHINE</NOM>
 		<PRENOM>ABDELILAH</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -1081,7 +1081,7 @@
 		<MoyenneGénérale>9.625</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>M131161202</CIN>
+		<CodeApogee>22012817</CodeApogee>
 		<NOM>BENMGUIRIDA</NOM>
 		<PRENOM>ANAS</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -1171,7 +1171,7 @@
 		<MoyenneGénérale>12.917</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P131528609</CIN>
+		<CodeApogee>21009110</CodeApogee>
 		<NOM>BERKOUKT</NOM>
 		<PRENOM>AMINE</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -1261,7 +1261,7 @@
 		<MoyenneGénérale>10.639</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>R130107324</CIN>
+		<CodeApogee>21011779</CodeApogee>
 		<NOM>BIGAGANE</NOM>
 		<PRENOM>ABDELLAH</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -1351,7 +1351,7 @@
 		<MoyenneGénérale>9.75</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P132499220</CIN>
+		<CodeApogee>20011005</CodeApogee>
 		<NOM>BOUHNINE</NOM>
 		<PRENOM>SAFAA</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -1441,7 +1441,7 @@
 		<MoyenneGénérale>10.125</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P136287541</CIN>
+		<CodeApogee>21002603</CodeApogee>
 		<NOM>BOUKER</NOM>
 		<PRENOM>MOHAMMED</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -1531,7 +1531,7 @@
 		<MoyenneGénérale>11.5</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P137440593</CIN>
+		<CodeApogee>21010261</CodeApogee>
 		<NOM>BOULERBAH</NOM>
 		<PRENOM>YASSER</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -1621,7 +1621,7 @@
 		<MoyenneGénérale>11.153</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P130238118</CIN>
+		<CodeApogee>21011724</CodeApogee>
 		<NOM>BOUNOUAR</NOM>
 		<PRENOM>MOHAMMED</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -1711,7 +1711,7 @@
 		<MoyenneGénérale>10.986</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>N130372265</CIN>
+		<CodeApogee>21009025</CodeApogee>
 		<NOM>BOUSSAID</NOM>
 		<PRENOM>MERYEME</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -1801,7 +1801,7 @@
 		<MoyenneGénérale>9.431</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>R137653537</CIN>
+		<CodeApogee>21010326</CodeApogee>
 		<NOM>CHAIBERRAS</NOM>
 		<PRENOM>SOUHAIL</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -1891,7 +1891,7 @@
 		<MoyenneGénérale>9.792</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>R142011994</CIN>
+		<CodeApogee>21010299</CodeApogee>
 		<NOM>CHERKI</NOM>
 		<PRENOM>HOUSSAM</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -1981,7 +1981,7 @@
 		<MoyenneGénérale>9.681</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>E149053304</CIN>
+		<CodeApogee>21009475</CodeApogee>
 		<NOM>DAHBI</NOM>
 		<PRENOM>MOAD</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -2071,7 +2071,7 @@
 		<MoyenneGénérale>10.042</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>J146043232</CIN>
+		<CodeApogee>21010439</CodeApogee>
 		<NOM>ECHCHRIKI</NOM>
 		<PRENOM>IMAD</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -2161,7 +2161,7 @@
 		<MoyenneGénérale>9.972</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>M139365150</CIN>
+		<CodeApogee>21010403</CodeApogee>
 		<NOM>EL ADNANI</NOM>
 		<PRENOM>EL MEHDI</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -2251,7 +2251,7 @@
 		<MoyenneGénérale>10.583</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>J132536409</CIN>
+		<CodeApogee>21010379</CodeApogee>
 		<NOM>EL AIDI IDRISSI</NOM>
 		<PRENOM>ACHRAF</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -2341,7 +2341,7 @@
 		<MoyenneGénérale>11</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P149079536</CIN>
+		<CodeApogee>21010272</CodeApogee>
 		<NOM>EL AOUAD</NOM>
 		<PRENOM>OUAAIL</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -2431,7 +2431,7 @@
 		<MoyenneGénérale>6.958</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P134264269</CIN>
+		<CodeApogee>21010324</CodeApogee>
 		<NOM>EL BAKALI</NOM>
 		<PRENOM>MALAK</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -2521,7 +2521,7 @@
 		<MoyenneGénérale>12.681</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P131422330</CIN>
+		<CodeApogee>20007042</CodeApogee>
 		<NOM>EL FERCHOUNI</NOM>
 		<PRENOM>SOUKAYNA</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -2611,7 +2611,7 @@
 		<MoyenneGénérale>10.319</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>R133536589</CIN>
+		<CodeApogee>21010274</CodeApogee>
 		<NOM>EL GARTI</NOM>
 		<PRENOM>YASSINE</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -2701,7 +2701,7 @@
 		<MoyenneGénérale>11.028</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P135333557</CIN>
+		<CodeApogee>21010319</CodeApogee>
 		<NOM>EL GHAZI</NOM>
 		<PRENOM>SILIA</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -2791,7 +2791,7 @@
 		<MoyenneGénérale>12.278</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>F134252896</CIN>
+		<CodeApogee>19006658</CodeApogee>
 		<NOM>EL HARIRI</NOM>
 		<PRENOM>KENZA</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -2881,7 +2881,7 @@
 		<MoyenneGénérale>11.069</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P135538007</CIN>
+		<CodeApogee>21010322</CodeApogee>
 		<NOM>EL HARRAK</NOM>
 		<PRENOM>MEHDI</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -2971,7 +2971,7 @@
 		<MoyenneGénérale>11.847</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P145072503</CIN>
+		<CodeApogee>22012491</CodeApogee>
 		<NOM>EL HLLAFI</NOM>
 		<PRENOM>BASMA</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -3061,7 +3061,7 @@
 		<MoyenneGénérale>10.931</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P120090676</CIN>
+		<CodeApogee>21010441</CodeApogee>
 		<NOM>EL M RABET</NOM>
 		<PRENOM>SAIDA</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -3151,7 +3151,7 @@
 		<MoyenneGénérale>9.806</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P130520922</CIN>
+		<CodeApogee>21010423</CodeApogee>
 		<NOM>EL MATNI</NOM>
 		<PRENOM>ADAM</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -3241,7 +3241,7 @@
 		<MoyenneGénérale>10.389</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P120101084</CIN>
+		<CodeApogee>20007896</CodeApogee>
 		<NOM>EL OUAHABI</NOM>
 		<PRENOM>ANASS</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -3331,7 +3331,7 @@
 		<MoyenneGénérale>11.792</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>E141004280</CIN>
+		<CodeApogee>17004026</CodeApogee>
 		<NOM>EL YAZGHI</NOM>
 		<PRENOM>MARYEM</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -3421,7 +3421,7 @@
 		<MoyenneGénérale>11.292</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P133382000</CIN>
+		<CodeApogee>21011787</CodeApogee>
 		<NOM>EL- OTMANI</NOM>
 		<PRENOM>SARA</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -3511,7 +3511,7 @@
 		<MoyenneGénérale>10.653</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>S130205652</CIN>
+		<CodeApogee>21010306</CodeApogee>
 		<NOM>EL-BATTEOUI</NOM>
 		<PRENOM>OUSSAMA</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -3601,7 +3601,7 @@
 		<MoyenneGénérale>9.5</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>F148041484</CIN>
+		<CodeApogee>19005680</CodeApogee>
 		<NOM>FAROUK</NOM>
 		<PRENOM>ZAKARIA</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -3691,7 +3691,7 @@
 		<MoyenneGénérale>9.444</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P133530636</CIN>
+		<CodeApogee>21010320</CodeApogee>
 		<NOM>HADAD</NOM>
 		<PRENOM>WAIL</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -3781,7 +3781,7 @@
 		<MoyenneGénérale>11.403</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P132390266</CIN>
+		<CodeApogee>21010359</CodeApogee>
 		<NOM>HAJOUZ</NOM>
 		<PRENOM>RIHAB</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -3871,7 +3871,7 @@
 		<MoyenneGénérale>9.5</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P134113294</CIN>
+		<CodeApogee>21010334</CodeApogee>
 		<NOM>HILALY</NOM>
 		<PRENOM>ANAS</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -3961,7 +3961,7 @@
 		<MoyenneGénérale>8.292</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P137389539</CIN>
+		<CodeApogee>21010011</CodeApogee>
 		<NOM>IKEN</NOM>
 		<PRENOM>HANAE</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -4051,7 +4051,7 @@
 		<MoyenneGénérale>10.667</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P134356108</CIN>
+		<CodeApogee>21010368</CodeApogee>
 		<NOM>JEBARI HASSANI</NOM>
 		<PRENOM>ABDELHAK</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -4141,7 +4141,7 @@
 		<MoyenneGénérale>12.861</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P133517571</CIN>
+		<CodeApogee>20009973</CodeApogee>
 		<NOM>KABBOUR</NOM>
 		<PRENOM>WISSAL</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -4231,7 +4231,7 @@
 		<MoyenneGénérale>11.069</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P135113663</CIN>
+		<CodeApogee>21010231</CodeApogee>
 		<NOM>KEROUAN SALAH</NOM>
 		<PRENOM>SOUMAIA</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -4321,7 +4321,7 @@
 		<MoyenneGénérale>9.958</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P132438588</CIN>
+		<CodeApogee>21011780</CodeApogee>
 		<NOM>KONTAR</NOM>
 		<PRENOM>RIHAM</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -4411,7 +4411,7 @@
 		<MoyenneGénérale>12.528</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P136314090</CIN>
+		<CodeApogee>20000927</CodeApogee>
 		<NOM>KORAICHI</NOM>
 		<PRENOM>SALMANE</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -4501,7 +4501,7 @@
 		<MoyenneGénérale>10.431</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P130254704</CIN>
+		<CodeApogee>20000104</CodeApogee>
 		<NOM>LABJAKH</NOM>
 		<PRENOM>SAFAE</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -4591,7 +4591,7 @@
 		<MoyenneGénérale>9.653</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P146037038</CIN>
+		<CodeApogee>21010740</CodeApogee>
 		<NOM>LIO-EDDINE</NOM>
 		<PRENOM>SAMIA</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -4681,7 +4681,7 @@
 		<MoyenneGénérale>11.722</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P132297743</CIN>
+		<CodeApogee>21010291</CodeApogee>
 		<NOM>LOUAH</NOM>
 		<PRENOM>MOHAMMED</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -4771,7 +4771,7 @@
 		<MoyenneGénérale>9.292</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>R132479301</CIN>
+		<CodeApogee>21011784</CodeApogee>
 		<NOM>NAYA</NOM>
 		<PRENOM>TAHA</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -4861,7 +4861,7 @@
 		<MoyenneGénérale>13.722</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P100054515</CIN>
+		<CodeApogee>21010332</CodeApogee>
 		<NOM>OULAD MAALEM</NOM>
 		<PRENOM>AYOUB</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -4951,7 +4951,7 @@
 		<MoyenneGénérale>9.347</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P138089951</CIN>
+		<CodeApogee>20007695</CodeApogee>
 		<NOM>RANBOUK</NOM>
 		<PRENOM>LAMIAE</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -5041,7 +5041,7 @@
 		<MoyenneGénérale>13.667</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P149014337</CIN>
+		<CodeApogee>21010401</CodeApogee>
 		<NOM>SAKHRI</NOM>
 		<PRENOM>MOHAMED</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -5131,7 +5131,7 @@
 		<MoyenneGénérale>12.681</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P135526963</CIN>
+		<CodeApogee>21009322</CodeApogee>
 		<NOM>SARSRI</NOM>
 		<PRENOM>AYMANE</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -5221,7 +5221,7 @@
 		<MoyenneGénérale>11.708</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P133500046</CIN>
+		<CodeApogee>21011667</CodeApogee>
 		<NOM>SOUIDAK</NOM>
 		<PRENOM>FIRDAOUS</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -5311,7 +5311,7 @@
 		<MoyenneGénérale>13.347</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>F141031874</CIN>
+		<CodeApogee>21010348</CodeApogee>
 		<NOM>SOULHI</NOM>
 		<PRENOM>MALAK</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -5401,7 +5401,7 @@
 		<MoyenneGénérale>14.625</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P133356109</CIN>
+		<CodeApogee>21010242</CodeApogee>
 		<NOM>STITOU</NOM>
 		<PRENOM>ABIR</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -5491,7 +5491,7 @@
 		<MoyenneGénérale>12.958</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>2200000064</CIN>
+		<CodeApogee>21015477</CodeApogee>
 		<NOM>SYLLA</NOM>
 		<PRENOM>NFALY</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -5581,7 +5581,7 @@
 		<MoyenneGénérale>14.278</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P110047171</CIN>
+		<CodeApogee>20001713</CodeApogee>
 		<NOM>TAIBI IMMRANI</NOM>
 		<PRENOM>AMAL</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -5671,7 +5671,7 @@
 		<MoyenneGénérale>10.681</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P142041844</CIN>
+		<CodeApogee>21010255</CodeApogee>
 		<NOM>TAJIDI</NOM>
 		<PRENOM>MALIKA</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -5761,7 +5761,7 @@
 		<MoyenneGénérale>12.847</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>P131415186</CIN>
+		<CodeApogee>21011615</CodeApogee>
 		<NOM>TAOUIL</NOM>
 		<PRENOM>FATIMAEZZAHRAE</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
@@ -5851,7 +5851,7 @@
 		<MoyenneGénérale>12.806</MoyenneGénérale>
 	</Etudiant>
 	<Etudiant>
-		<CIN>N133311096</CIN>
+		<CodeApogee>21010409</CodeApogee>
 		<NOM>ZAHAR</NOM>
 		<PRENOM>KENZA</PRENOM>
 		<Module Code="GINF31" Designation="Programmation oriente objet et XML" >
